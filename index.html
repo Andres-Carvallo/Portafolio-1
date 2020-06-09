@@ -18,16 +18,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto pr-5">
                 <li class="nav-item active">
-                <a class="nav-link text-white" href="#">Sobre Mi <span class="sr-only">(current)</span></a>
+                <a class="nav-link text-white" href="#yo">Sobre Mi <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link text-white" href="#">Experiencia</a>
+                <a class="nav-link text-white" href="#miexp">Experiencia</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link text-white" href="#">Trabajos</a>
+                <a class="nav-link text-white" href="#works">Trabajos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Contacto</a>
+                    <a class="nav-link text-white" href="#contacto">Contacto</a>
                 </li>
             </ul>
             </div>
@@ -40,7 +40,7 @@
             <h1 class="texto-header2">MAGDALENA</h1>
         </div>        
     </header> 
-    <section class="container info pt-5 mt-5 pr-0 mr-0">
+    <section id="yo" class="container info pt-5 mt-5 pr-0 mr-0">
         <h4 class="text-center ml-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.</h4>
         <hr class="hr2">
         <div class="row container text-left">
@@ -48,7 +48,7 @@
             <p class=" col-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
         </div>
     </section>
-    <section class="text-center container mt-5 pl-4 pr-0">
+    <section id="miexp" class="text-center container mt-5 pl-4 pr-0">
         <h2 >MI EXPERIENCIA</h2>
         <hr class="hr3 text-center">
         <div class="experiencia container row">
@@ -62,7 +62,7 @@
             </div>
         </div>
     </section>
-    <section class="portafolio text-center ">
+    <section id="works" class="portafolio text-center ">
       <div class="pt-5">
           <h1 class="text-white pt-4">MIS ÚLTIMOS TRABAJOS</h1>
           <hr class="hr4">
@@ -75,15 +75,16 @@
                     <div class="card-body">
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Meet & Coffee Page">Meet&coffee</button>
                     </div>
                 </div>
-
                 
                 <div class="card col-3 mr-5" style="width: 18rem;">
                     <img src="assets/img/iguana_page.png" width="100%" class="card-img-top " alt="...">
-                    <div class="card-body">
+                    <div class="card-body" data-toggle="tooltip" data-placement="top" title="Meet&Coffe">
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Iguana Page">Iguana</button>
                     </div>
                 </div>
                 
@@ -92,6 +93,7 @@
                     <div class="card-body">
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Suricata Page">Suricata</button>
                     </div>
                 </div>
             </div> 
@@ -102,6 +104,7 @@
                     <div class="card-body">
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Cuppon Page">Cuppon</button>
                     </div>
                 </div>
 
@@ -111,6 +114,7 @@
                     <div class="card-body">
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Ricomida Page">Ricomida</button>
                     </div>
                 </div>
                 
@@ -119,6 +123,7 @@
                     <div class="card-body">
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <button type="button" class="btn btn-secondary" title="Dmark Page" data-toggle="tooltip" data-placement="bottom" title="Ricomida Page">Dmark</button>
                     </div>
                 </div>
             </div> 
@@ -127,7 +132,8 @@
 
 
 
-    <div class="typeform-widget" data-url="https://andcarv89.typeform.com/to/PcXvHl" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=PcXvHl&utm_source=typeform.com-01E9KWKRWSWYTKS25CZ9NQJFH3-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+
+    <div id="contacto" class="typeform-widget" data-url="https://andcarv89.typeform.com/to/PcXvHl" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=PcXvHl&utm_source=typeform.com-01E9KWKRWSWYTKS25CZ9NQJFH3-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
     <footer class="row mr-0">
         <h3 class="text-white">MAGDALENA</h3>
 
@@ -138,8 +144,9 @@
             <i class="fab fa-facebook-square fa-4x"></i>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/pop5er.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="assets/js/scrpit.js"></script>
 </body>
 </html>
