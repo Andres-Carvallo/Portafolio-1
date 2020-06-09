@@ -1,0 +1,86 @@
+.barra-nav {
+    background-color: #660066;  
+}
+.hero {
+    background-image: url('../img/bg_hero.png');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto-header {
+   padding-top: 60%;
+}
+.texto-header2 {
+    padding-bottom: 10%;
+}
+
+.hr1 {
+    color:white;
+    border: 1px solid;
+    max-width: 20%;
+}
+
+.info {
+    margin-left: 25vw;
+    
+    
+}
+
+h4 {
+    
+    margin-right: 20%;
+}
+
+.hr2 {
+    border: 1px solid;
+    margin-bottom: 5%;
+    max-width: 15%;
+    margin-left: 35%;
+}
+
+.experiencia {
+    margin-left: 25%;
+    margin-right: 0em;
+}
+
+.trabajos {
+    padding-right: 20%;
+}
+
+.hr3 {
+    border: 1px solid;
+    max-width: 8%;
+    margin-right: 46%;
+    margin-top: 0;
+    margin-bottom: 10%;
+}
+.portafolio {
+    background-color: #660066;
+    width: 100%;
+   
+}
+
+.card {
+    padding: 0em;
+    border: 0em;
+}
+
+.tarjetas {
+    margin-left: 13%;
+    padding-bottom: 5%;
+}
+
+.hr4 {
+    color:white;
+    border: 1px solid;
+    max-width: 10%;
+    margin-bottom: 5%;
+}
+
+footer {
+    background-color: #660066;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
