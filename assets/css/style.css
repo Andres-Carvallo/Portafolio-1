@@ -1,3 +1,13 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 40pt;
+}
+
 .barra-nav {
     background-color: #660066;  
 }
@@ -10,9 +20,15 @@
 
 .texto-header {
    padding-top: 60%;
+   font-family: 'Oswald', sans-serif;
+   font-weight: 200;
+   font-size: 72pt;
 }
 .texto-header2 {
     padding-bottom: 10%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 72pt;
 }
 
 .hr1 {
@@ -30,6 +46,10 @@
 h4 {
     
     margin-right: 20%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 25pt;
+
 }
 
 .hr2 {
@@ -39,8 +59,18 @@ h4 {
     margin-left: 35%;
 }
 
+.descripcion {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16pt;
+}
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 52pt;
+}
 .experiencia {
-    margin-left: 23%;
+    margin-left: 10%;
     margin-right: 0em;
 }
 
@@ -49,6 +79,17 @@ h4 {
     margin-bottom: 15%;
 }
 
+.trabajo1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 25pt;
+}
+
+.años {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 25pt;
+}
 .hr3 {
     border: 1px solid;
     max-width: 8%;
@@ -62,6 +103,12 @@ h4 {
    
 }
 
+.titulo-paginas {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 52pt;
+}
+
 .card {
     padding: 0em;
     border: 0em;
@@ -72,6 +119,17 @@ h4 {
     padding-bottom: 5%;
 }
 
+.titulo-tarjetas {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 23pt;
+}
+
+.texto-card {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16pt;
+}
 .hr4 {
     color:white;
     border: 1px solid;
@@ -83,10 +141,16 @@ footer {
     background-color: #660066;
     padding-top: 3%;
     padding-bottom: 3%;
-    padding-left: 35%;
+    padding-left: 29%;
 }
 
 .iconos {
     padding-left: 25%;
+}
+
+.texto-footer {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 40pt;
 }
 
