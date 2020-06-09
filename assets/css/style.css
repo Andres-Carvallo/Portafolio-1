@@ -8,6 +8,10 @@ body {
     font-size: 40pt;
 }
 
+.brand {
+    margin-left: 20%;
+}
+
 .barra-nav {
     background-color: #660066;  
 }
@@ -38,7 +42,7 @@ body {
 }
 
 .info {
-    margin-left: 25vw;
+    margin-left: 24%;
     
     
 }
@@ -70,7 +74,7 @@ h2 {
     font-size: 52pt;
 }
 .experiencia {
-    margin-left: 10%;
+    margin-left: 3%;
     margin-right: 0em;
 }
 
@@ -85,15 +89,21 @@ h2 {
     font-size: 25pt;
 }
 
+
+
 .años {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 25pt;
 }
+
+.exp {
+    margin-left: 19%;
+}
 .hr3 {
     border: 1px solid;
     max-width: 8%;
-    margin-right: 46%;
+    
     margin-top: 0;
     margin-bottom: 10%;
 }
@@ -152,5 +162,100 @@ footer {
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     font-size: 40pt;
+}
+
+
+@media (max-width: 767.98px) {
+
+    .hero {
+        background-image: url('../img/bg_hero.png');
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+    }
+    .trabajos {
+        padding-left: 20%;
+        padding-right: 15%;
+        
+    }
+
+    .trabajo1 {
+        font-size: 20pt;
+    }
+    .trabajos2{
+        margin-right: 4%;
+        font-size: 20pt;
+    }
+
+    .años {
+        font-size: 20pt;
+    }
+
+    .iconos {
+        padding-left: 0;
+        
+    }
+
+    .texto-footer {
+        padding-left: 3%;
+    }
+
+    .texto-header {
+        padding-top: 60%;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 200;
+        font-size: 40pt;
+     }
+     .texto-header2 {
+         padding-bottom: 10%;
+         font-family: 'Oswald', sans-serif;
+         font-weight: bold;
+         font-size: 40pt;
+     }
+
+     h2 {
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 35pt;
+    }
+
+    .exp {
+        margin-left: 0;
+    }
+
+    .nav-item {
+        margin-left: auto;
+        padding-left: 14rem;
+        text-align: center;
+    }
+    .brand {
+        margin-left: 0em;
+        padding-left: 0em;
+        
+    }
+    .barra {
+        padding-left: 0em;
+    }
+    
+    footer {
+        padding-left: 20%;
+    }
+    
+    .texto-footer {
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 35pt;
+        padding-left: 5%;
+    }
+
+    .tarjetas {
+        margin-left: 0em;
+    }
+
+    .titulo-paginas {
+        font-size: 40pt;
+    }
 }
 

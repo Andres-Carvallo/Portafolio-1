@@ -11,16 +11,16 @@
     <title>Mi Portafolio</title>
 </head>
 <body>
-    <div class="barra-nav px-5">
-        <nav class=" navbar navbar-expand-lg navbar-dark px-5">
-            <a class="navbar-brand text-white pl-5" href="#">M</a>
+    <div class="barra-nav">
+        <nav class="barra navbar navbar-expand-lg navbar-dark px-5">
+            <a class="brand navbar-brand text-white" href="#">M</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto pr-5">
                 <li class="nav-item active">
-                <a class="nav-link text-white" href="#yo">Sobre Mi <span class="sr-only">(current)</span></a>
+                <a class="nav-link text-white d-none d-lg-block" href="#yo">Sobre Mi <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link text-white" href="#miexp">Experiencia</a>
@@ -42,23 +42,23 @@
             <h1 class="texto-header2">MAGDALENA</h1>
         </div>        
     </header> 
-    <section id="yo" class="container info pt-5 mt-5 pr-0 mr-0">
+    <section id="yo" class="container info pt-5 mt-5 pr-0 mr-0 d-none d-lg-block">
         <h4 class="text-center ml-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.</h4>
-        <hr class="hr2">
+        <hr class="hr2 mr-0">
         <div class="row container text-left descripcion">
             <p class="mr-5 col-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
             <p class=" col-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
         </div>
     </section>
-    <section id="miexp" class="text-center container mt-5 pl-4 pr-0">
+    <section id="miexp" class="text-center container mt-5 pr-0 exp">
         <h2 >MI EXPERIENCIA</h2>
         <hr class="hr3 text-center">
         <div class="experiencia container row">
-            <div class="trabajos">
-                <p class="mb-0 trabajo1">Kinesiólogo Kinemed</p>
-                <p class="años">2014 - 2018</p>
+            <div class="trabajos col-lg-7 col-sm-12">
+                <p class="mb-0 pr-5 trabajo1">Kinesiólogo Kinemed</p>
+                <p class="años pr-5">2014 - 2018</p>
             </div>
-            <div>
+            <div class="col-lg-5 col-sm-12 trabajos2">
                 <p class="mb-0 trabajo1">Coordinador Laboral</p>
                 <p class="años">2018 - 2020</p>
             </div>
@@ -70,9 +70,9 @@
           <hr class="hr4">
       </div>
       <div class="tarjetas">
-          <div class="row mb-5 ml-5 mr-0">
+          <div class="row ml-5 mr-0">
                 
-                <div class="card col-3 mr-5" style="width: 18rem;">
+                <div class="card col-lg-3 col-sm-12 mr-5 mb-5" style="width: 18rem;">
                     <img src="assets/img/meet_coffee.png" width="100%" class="card-img-top " alt="...">
                     <div class="card-body">
                       <p class="card-text titulo-tarjetas">Meet&Coffe</p>
@@ -81,7 +81,7 @@
                     </div>
                 </div>
                 
-                <div class="card col-3 mr-5" style="width: 18rem;">
+                <div class="card col-lg-3 col-sm-12 mr-5 mb-5" style="width: 18rem;">
                     <img src="assets/img/iguana_page.png" width="100%" class="card-img-top " alt="...">
                     <div class="card-body" data-toggle="tooltip" data-placement="top" title="Meet&Coffe">
                       <p class="card-text titulo-tarjetas">Iguana Page</p>
@@ -90,7 +90,7 @@
                     </div>
                 </div>
                 
-                <div class="card col-3" style="width: 18rem;">
+                <div class="card col-lg-3 col-sm-12 mr-5 mb-5" style="width: 18rem;">
                     <img src="assets/img/suricata.png" width="100%" class="card-img-top " alt="...">
                     <div class="card-body">
                       <p class="card-text titulo-tarjetas">Suricata</p>
@@ -101,7 +101,7 @@
             </div> 
             <div class="row mb-5 ml-5 mr-0">
                 
-                <div class="card col-3 mr-5" style="width: 18rem;">
+                <div class="card col-lg-3 col-sm-12 mr-5 mb-5" style="width: 18rem;">
                     <img src="assets/img/cuppon.png" width="100%" class="card-img-top " alt="...">
                     <div class="card-body">
                       <p class="card-text titulo-tarjetas">Cuppon.</p>
@@ -111,7 +111,7 @@
                 </div>
 
                 
-                <div class="card col-3 mr-5" style="width: 18rem;">
+                <div class="card col-lg-3 col-sm-12 mr-5 mb-5" style="width: 18rem;">
                     <img src="assets/img/ricomida.png" width="100%" class="card-img-top " alt="...">
                     <div class="card-body">
                       <p class="card-text titulo-tarjetas">Ricomida</p>
@@ -120,7 +120,7 @@
                     </div>
                 </div>
                 
-                <div class="card col-3" style="width: 18rem;">
+                <div class="card col-lg-3 col-sm-12 mr-5 mb-5" style="width: 18rem;">
                     <img src="assets/img/dmark.png" width="100%" class="card-img-top " alt="...">
                     <div class="card-body">
                       <p class="card-text titulo-tarjetas">Dmark</p>
@@ -140,9 +140,9 @@
         <h3 class="text-white texto-footer">MAGDALENA</h3>
 
         <div class="text-white iconos">
-            <i class="fab fa-github-square fa-4x mr-3"></i> 
-            <i class="fab fa-linkedin fa-4x mr-3"></i>
-            <i class="fab fa-twitter-square fa-4x mr-3"></i>
+            <i class="fab fa-github-square fa-4x mr-2"></i> 
+            <i class="fab fa-linkedin fa-4x mr-2"></i>
+            <i class="fab fa-twitter-square fa-4x mr-2"></i>
             <i class="fab fa-facebook-square fa-4x"></i>
         </div>
     </footer>
