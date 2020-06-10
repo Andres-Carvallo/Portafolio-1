@@ -307,3 +307,17 @@ a {
  
 }
 
+@media (max-width: 1300.98px) { .info {
+    margin: 12%;
+    padding: 0em;
+} .exp {
+    margin: 4%;
+    padding: 0em;
+} footer {
+    
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 20%;
+}
+    }
+
