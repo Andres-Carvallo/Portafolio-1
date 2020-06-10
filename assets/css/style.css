@@ -12,7 +12,7 @@ body {
     margin-left: 20%;
 }
 
-.barra-nav {
+.barra {
     background-color: #660066;  
 }
 .hero {
@@ -79,14 +79,20 @@ h2 {
 }
 
 .trabajos {
-    padding-right: 24%;
-    margin-bottom: 15%;
+    
+    
+    margin-left: 17%;
 }
 
 .trabajo1 {
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
     font-size: 25pt;
+}
+
+.trabajos2 {
+
+    margin-left: 29%;
 }
 
 
@@ -105,7 +111,7 @@ h2 {
     max-width: 8%;
     
     margin-top: 0;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 .portafolio {
     background-color: #660066;
@@ -162,6 +168,31 @@ footer {
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     font-size: 40pt;
+}
+
+.imagen-carousel {
+    max-width: 20%;
+    
+}
+
+.imagen-carousel2 {
+    max-width: 25%;
+}
+
+
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: blue;
+  
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: blue;
 }
 
 
