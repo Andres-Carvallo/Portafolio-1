@@ -259,7 +259,8 @@ a {
     }
 
     .exp {
-        margin-left: 0;
+        margin-left: -5px;
+        padding: 0;
     }
 
     .nav-item {
@@ -307,11 +308,11 @@ a {
  
 }
 
-@media (max-width: 1300.98px) { .info {
+@media (min-width: 768px) and (max-width: 1300.98px) { .info {
     margin: 12%;
     padding: 0em;
 } .exp {
-    margin: 4%;
+    margin-left: 4%;
     padding: 0em;
 } footer {
     
